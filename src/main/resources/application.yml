@@ -1,0 +1,11 @@
+server:
+  port: 8029
+spring:
+  datasource:
+    url: jdbc:postgresql://192.168.1.154:5432/iho_develop
+    username: postgres
+    password: Cnhis.com@2021
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 80
+      minimum-idle: 2
